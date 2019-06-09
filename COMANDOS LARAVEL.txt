@@ -1,0 +1,10 @@
+comandos para correr lavarel
+
+1. Clone a la raíz de su servidor git clone -b master git@github.com:lubusIN/laravel-gymie.git
+
+
+2. Ejecutar composer install para instalar todas las dependencias.
+3. Crear .env la raíz de la aplicación cp .env.example .env
+4. Detalles de la base de datos de actualización y DNS en .env
+5. Ejecutar php artisan key:generate  para generar clave
+6. Ejecutar php artisan migrate --seed para instalar la base de datos y los datos requeridos.
